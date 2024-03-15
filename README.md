@@ -4,8 +4,35 @@ Agenda:
 -------
 we need to trigger a jenkins build when developer raises PR for a branch
 
+Why do we need a pull request workflow?
+----------------------------------------
+
+A pull request workflow is a process that helps developers collaborate on code changes in a safe and efficient way. It typically involves the following steps:
+
 ```
+A developer creates a new branch and makes their changes.
+They submit a pull request to merge their changes into the main branch.
+Other developers review the pull request and provide feedback.
+Once the pull request is approved, it is merged into the main branch.
+A pull request workflow can help to improve the quality of code, reduce the risk of errors, and make it easier to track changes.
+```
+
+This workflow will automatically kick off a Jenkins pipeline when a developer opens a pull request. The pipeline will build and test the code changes, and then send a status update back to GitHub. If the pipeline passes, the pull request will be ready to be merged. If the pipeline fails, using branch protection rules, will prevent the pull request from merging. The developer must fix the issues and add new commits to the pull request, which will retrigger the same pipeline.
+
+Benefits of using a pull request workflow with Jenkins
+
+There are many benefits to using a pull request workflow with Jenkins, including:
+
+```
+Improved code quality: Jenkins can help to improve the quality of code by automatically building and testing code changes before they are merged into the main branch.
+Reduced risk of errors: Jenkins can help to reduce the risk of errors by automatically running tests and checks on code changes.
+Easier to track changes: Jenkins can make it easier to track changes by providing a centralized view of all pull requests and their status.
+Increased collaboration: Jenkins can help to increase collaboration by allowing developers to review and comment on code changes before they are merged into the main branch.
+```
+
 github posts json events with branch and pr details to jenkins pipeline. pipeline parses json of github api and triggers the branch and creates PR
+
+```
 
 Using Branch Name:
 -----------------
