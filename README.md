@@ -30,6 +30,75 @@ Easier to track changes: Jenkins can make it easier to track changes by providin
 Increased collaboration: Jenkins can help to increase collaboration by allowing developers to review and comment on code changes before they are merged into the main branch.
 ```
 
+
+GHPRB: GitHub Pull Request Builder 
+==================================
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/79e93783-192e-49a9-8cfc-c3e0b7e86d11)
+
+
+configure GHPRB:
+----------------
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/973b6375-24b3-4586-9565-fc5e6f1d0a3a)
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/63c90c2e-3a7d-4f6e-8347-d6816dbea4d3)
+
+- Apply and Save
+
+
+Configure github webhook:
+-------------------------
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/2ad57f62-f585-43c1-808e-eed4380b71e5)
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/70d61591-2a4f-41fb-814c-cbca7f835b35)
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/71e7b66f-0a39-453a-8b4f-0651f25056f2)
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/88230fa4-8668-4a1f-97c1-4cc5a2542257)
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/2ff07f42-c7dc-4800-ab8d-b0faf92b5109)
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/bd829972-ec8d-4c8d-b2b7-eb3b2e01c809)
+
+
+webhook-pr-freestyle-job:
+-------------------------
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/70e892fc-7116-4ddb-9472-3018960b6b64)
+
+![image](https://github.com/vijay2181/jenkins-pr-auto-build-pipeline/assets/66196388/0c4e45b9-05d9-44a1-979f-05800198bc80)
+
+- apply and save
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## FROM JENKINS PIPELINE
 github posts json events with branch and pr details to jenkins pipeline. pipeline parses json of github api and triggers the branch and creates PR
 
 ```
