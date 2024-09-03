@@ -1,4 +1,4 @@
-# jenkins-pr-auto-build-pipeline
+# jenkins-pr-auto-build-pipeline-using-plugin
 
 Agenda:
 -------
